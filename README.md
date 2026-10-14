@@ -27,7 +27,7 @@ SwiftBar picks up new plugins on its own. If the plugin does not appear, choose 
 ## Settings
 
 - **How often it runs:** set by the `1h` in the file name. For example, name the link `pr-attention.30m.sh` to run every 30 minutes.
-- **Ignored steps:** `IGNORE_STEPS` at the top of the script. A check is not reported when all of its failed steps are in this list. The default ignores `Run bundle-audit`. Set `IGNORE_STEPS=()` to report every failure.
+- **Ignored steps:** `IGNORE_STEPS` at the top of the script. A check is not reported when all of its failed steps are in this list. Set `IGNORE_STEPS=()` to report every failure.
 
 ## What it checks
 
